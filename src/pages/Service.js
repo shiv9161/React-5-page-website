@@ -1,9 +1,13 @@
 import React from 'react'
+import ServiceHead from '../components/ServicesHead/ServiceHead'
+import ServiceContent from '../components/ServiceContent.js/ServiceContent'
 
 const Service = () => {
     return (
         <div>
-            this is service page
+            <ServiceHead />
+            <ServiceContent />
+            <ServiceContent />
         </div>
     )
 }

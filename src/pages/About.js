@@ -1,9 +1,13 @@
 import React from 'react'
+import OneTwoAbout from '../components/AboutCom/OneTwoAbout'
+import AboutHeading from "../components/AboutHead/AboutHeading"
 
 const About = () => {
     return (
         <div>
-            this is About page
+            <AboutHeading />
+            <OneTwoAbout />
+            <OneTwoAbout />
         </div>
     )
 }
