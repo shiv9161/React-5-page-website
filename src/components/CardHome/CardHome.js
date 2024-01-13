@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./style.css";
 
 const CardHome = () => {
     return (
         <>
             <div className='container'>
                 <div className="row">
-                    <p className='text-center h2'>PLAIN CARD</p>
+                    <p className='text-center pt-5 pb-3 h2'><b>Simple Card</b></p>
                     <div className="col-sm-6 mb-3 mb-sm-0">
                         <div className="card">
                             <div className="card-body">
@@ -16,6 +17,25 @@ const CardHome = () => {
                         </div>
                     </div>
                     <div className="col-sm-6">
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Special title treatment</h5>
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="/" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-sm-6 mb-3 mt-4 mb-sm-0">
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Special title treatment</h5>
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="/" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 mt-4">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Special title treatment</h5>
